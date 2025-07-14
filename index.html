@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek Raj | Mechatronics Engineer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- AOS Scroll‑Animation library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <div class="container nav">
+      <h1 class="logo">Vivek Raj</h1>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a class="btn" href="Vivek_Raj_CV.pdf" download>Download CV</a></li>
+        </ul>
+
+        <div id="hamburger"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container" data-aos="fade-up">
+      <h2>Hello, I’m <span>Vivek Raj</span></h2>
+      <p class="tagline">Final‑year B.Tech Mechatronics @ DSEU Okhla‑II • Embedded Systems • Automation • IoT</p>
+      <a href="#projects" class="btn see-work-btn">See My Work</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">About Me</h2>
+      <p data-aos="fade-right" data-aos-delay="150">
+        I’m passionate about bridging the physical and digital worlds. My projects focus on
+        <strong>sensor fusion, real‑time data display, and intuitive user interaction</strong>.  
+        When I’m not soldering or coding, you’ll find me sketching UI ideas or reading about AI‑driven robotics.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Experience</h2>
+
+      <div class="timeline">
+       <a href="https://www.theforage.com/dashboard" target="_blank" class="exp-link">
+  <!-- add the extra class here ↓ -->
+  <div class="exp-card forage-highlight" data-aos="fade-up" data-aos-delay="100">
+    <span class="exp-date">Jun 2025 – Jul 2025</span>
+    <h3>AI Transformation Consultant (Virtual Intern)</h3>
+    <p>Analysed customer loan data for <em>Geldium</em>, designed a GenAI‑powered delinquency
+       prediction framework, and presented an implementation roadmap.</p>
+  </div>
+</a>
+</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Projects</h2>
+
+      <!-- Project 1 -->
+      <a class="project-card" href="radar system.pdf" target="_blank"
+         data-aos="zoom-in">
+        <div class="proj-img"><img src="assets/radar.png" alt="Radar project"/></div>
+        <div class="proj-text">
+          <h3>Object Detection Radar System</h3>
+          <p>Arduino Uno + HC‑SR04 + servo sweep visualised in Processing.  
+             Detects obstacles ≤ 4 m, logs events, and displays live polar plot.</p>
+          <span class="tag">C++</span><span class="tag">Processing</span><span class="tag">Servo Control</span>
+        </div>
+      </a>
+
+      <!-- Project 2 -->
+      <a class="project-card reverse" href="distance.pdf" target="_blank"
+         data-aos="zoom-in" data-aos-delay="100">
+        <div class="proj-img"><img src="assets/dmd.png" alt="Distance meter"/></div>
+        <div class="proj-text">
+          <h3>Handheld Distance Measuring Device</h3>
+          <p>Compact gadget with OLED display &amp; buzzer alert. Accurate to ±2 mm, 3D‑printed shell, USB‑C rechargeable.</p>
+          <span class="tag">Arduino Nano</span><span class="tag">I²C OLED</span><span class="tag">Fusion 360</span>
+        </div>
+      </a>
+
+      
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-left">Skills</h2>
+
+      <ul class="skills-grid" data-aos="fade-left" data-aos-delay="150">
+        <li>Arduino SDK</li>
+        <li>Python</li>
+        <li>PLC Fundamentals</li>
+        <li>MATLAB &amp; Simulink</li>
+        <li>HTML • CSS • JavaScript</li>
+        
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title">Get in Touch</h2>
+    <form action="https://formspree.io/f/xblkrzed" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- 🧠 Certifications Section -->
+<section id="certifications" class="section alt-bg">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+
+    <div class="certs-grid">
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+        <h3>NPTEL - Signals & Systems</h3>
+        <p>Completed with 50% tag.</p>
+        <a class="btn" href="sns.png" download>Download Certificate</a>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Infosys - IoT Foundations</h3>
+        <p>Hands-on IoT training using Raspberry Pi and sensors.</p>
+        <a class="btn" href="IoT.pdf" download>Download Certificate</a>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Cybersecurity by Microsoft & LinkedIn</h3>
+        <p>Learned essential cybersecurity principles including network defense and threat mitigation.</p>
+        <a class="btn" href="cyber.png" download>Download Certificate</a>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>SEO Optimization using Squarespace – Coursera</h3>
+        <p>Gained hands-on skills to improve website visibility and ranking using SEO best practices.</p>
+        <a class="btn" href="seo.jpeg" download>Download Certificate</a>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>LLM Certificate – IBM SkillBuild</h3>
+        <p>Explored foundational concepts and real-world applications of Large Language Models (LLMs).</p>
+        <a class="btn" href="LLM.pdf" download>Download Certificate</a>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Introduction to AI – IBM</h3>
+        <p>Completed beginner-level AI course covering machine learning and real-world AI use cases.</p>
+        <a class="btn" href="AI.pdf" download>Download Certificate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; <span id="year"></span> Vivek Raj. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
